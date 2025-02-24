@@ -13,7 +13,7 @@ console.log(primaryName);
 
 const number = 2;
 const text = 'L\'aquila';
-const bool = 2 > 1;
+const bool = true;
 
 console.log(`${number} ${text} ${bool}`);
 
