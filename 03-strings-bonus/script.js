@@ -11,7 +11,7 @@ console.log(cityIndex); // Output: 4
 
 // 2. Sottostringhe 
 // Stampa la sottostringa "York" dalla variabile city
-const citySubstring = (city.substring(4, 9));
+const citySubstring = city.substring(4);
 console.log(citySubstring); // Output: "York"
 
 // 3. Sostituzione
@@ -27,5 +27,6 @@ console.log(cityNameConcat); // Output: "New York City"
 
 // 5. Tutto in maiscolo
 // Trasforma tutto in maiscuolo la stringa della variabile hello
-const upperCaseHello = 'hello';
-console.log(upperCaseHello.toUpperCase()); // Output: "HELLO"
+//const upperCaseHello = 'hello';
+const upperCaseHello = hello.toUpperCase();
+console.log(upperCaseHello); // Output: "HELLO"

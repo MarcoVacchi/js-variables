@@ -15,7 +15,11 @@ const number = 2;
 const text = 'L\'aquila';
 const bool = true;
 
-console.log(`${number} ${text} ${bool}`);
+//console.log(`${number} ${text} ${bool}`);
+console.log(number);
+console.log(text);
+console.log(bool);
+
 
 // 3. Sostituisci null nelle righe sottostanti utilizzando operazioni con le stringhe
 // e le variabili sopra in modo da stampare correttamente 
